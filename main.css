@@ -1,0 +1,173 @@
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    word-break: break-all;  
+}
+
+.bg {
+    width: 100%;
+    height: 100vh;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    border: none;
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.space {
+    width: 60%;
+    height: 60%;
+    background-position: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: initial;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    background-image: url("mountains.png");
+    background-size: cover;
+    width: 100%;
+    height: calc(100% - 60px);
+    background-position: center;
+    background-repeat: no-repeat;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: fixed;
+    color: #fff;
+    text-transform: initial;  
+    position: relative;
+}
+
+h1 {
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.footer {
+    position: absolute;
+    margin-left: -100px;
+    margin-bottom: 15px;
+    bottom: 0;
+    
+    display: inline-block;
+}
+
+.fini {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.finim {
+    color: #fff;
+    text-decoration: none;
+}
+ 
+.white {
+    width: 60%; 
+    background-color: #fff;
+    z-index: 1;
+}
+
+.block {
+    height: 100%;
+    min-width: 40%;
+}
+
+.x {
+    display: block;
+    text-align: center;
+    line-height: 40px;
+    text-align: center;
+    height: 40px;
+    width: 40px;
+    color: gray;
+    font-weight: 200;
+    font-size: 22px;
+    float: right;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+label {
+    text-transform: uppercase;
+    display: block;
+    width: 100%;
+    color: grey;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+label:first-child {
+    padding-top: 15px;
+}
+
+.form-row {
+    margin-top: 10px;
+    margin-left: 60px;
+    margin-right: 60px;
+    clear: both;  
+}
+
+.first-row {
+    margin-top: 30px;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid grey;
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.btn {
+    background-color: #004ED7;
+    display: inline-block;
+    padding: 10px 26px;
+    border-radius: 20px;
+    font-size: 14px;
+    color: #fff;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+.btn:hover {
+    box-shadow: 0px 4px 8px 5px #DC143C;
+}
+
+.reg {
+    display: inline-block;
+    color: #004ED7;
+    font-size: 14px;
+    padding: 10px 0;
+}
+
+.page-end {
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 60px;
+    margin-right: 30px;
+}
+
+.page-end > span {
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 14px;
+    padding: 10px 0;
+}
+ 
